@@ -1,0 +1,143 @@
+$date
+	Sun Aug 27 15:47:04 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TestBench $end
+$var wire 1 ! OUTPUT $end
+$var reg 1 " EN_BAR $end
+$var reg 8 # IN [7:0] $end
+$var reg 3 $ S [2:0] $end
+$scope module mymux $end
+$var wire 1 " en_bar $end
+$var wire 8 % in [7:0] $end
+$var wire 1 ! out $end
+$var wire 1 & out_before_z $end
+$var wire 3 ' s [2:0] $end
+$var wire 8 ( y [7:0] $end
+$var wire 3 ) sn [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b111 )
+b1 (
+b0 '
+1&
+b10101011 %
+b0 $
+b10101011 #
+1"
+z!
+$end
+#5
+b110 )
+b10 (
+b1 $
+b1 '
+#10
+z!
+0&
+b0 (
+b101 )
+b10 $
+b10 '
+#15
+z!
+1&
+b100 )
+b1000 (
+b11 $
+b11 '
+#20
+z!
+0&
+b0 (
+b11 )
+b100 $
+b100 '
+#25
+z!
+1&
+b10 )
+b100000 (
+b101 $
+b101 '
+#30
+z!
+0&
+b0 (
+b1 )
+b110 $
+b110 '
+#35
+z!
+1&
+b0 )
+b10000000 (
+b111 $
+b111 '
+#40
+1&
+b111 )
+b1 (
+b0 $
+b0 '
+1!
+0"
+#45
+b110 )
+b10 (
+b1 $
+b1 '
+#50
+0!
+0&
+b0 (
+b101 )
+b10 $
+b10 '
+#55
+1!
+1&
+b100 )
+b1000 (
+b11 $
+b11 '
+#60
+0!
+0&
+b0 (
+b11 )
+b100 $
+b100 '
+#65
+1!
+1&
+b10 )
+b100000 (
+b101 $
+b101 '
+#70
+0!
+0&
+b0 (
+b1 )
+b110 $
+b110 '
+#75
+1!
+1&
+b0 )
+b10000000 (
+b111 $
+b111 '
+#80
