@@ -2,6 +2,9 @@
 
 ## Folder:Digital::
 
+### Folder:Task1::
+
+
 ### Folder:Task2::
 
 Contains MUX8_to_1 and DFF Verilog HDL files, alongwith their respective testbenches, compiled vvp files, and output vcd files.  
