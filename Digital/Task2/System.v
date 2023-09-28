@@ -13,7 +13,7 @@ wire dff_1_Q , dff_1_Q_Bar , dff_1_D ;
 wire dff_2_Q , dff_2_Q_Bar , dff_2_D ;
 
 
-assign #0.1 clk = mux_7_out ;
+//assign #0.1 clk = mux_7_out ;
 
 dff dff_0( dff_0_Q , dff_0_Q_Bar , dff_0_D , clk , clr_bar , pre_bar );
 dff dff_1( dff_1_Q , dff_1_Q_Bar , dff_1_D , clk , clr_bar , pre_bar );
@@ -53,6 +53,8 @@ wire [7:0] mux_7_in ;
 wire [2:0] mux_7_s ;
 wire mux_7_out ;
 wire mux_7_en_bar ;
+
+assign #0.1 clk = mux_7_out ;
 
 reg mux_6_S_2 ;
 
